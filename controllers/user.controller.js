@@ -1,48 +1,47 @@
-const Admin = require("../schemas/Admin");
+const User = require("../schemas/User");
 const { sendErrorresponse } = require("../helpers/send_error_response");
-const { adminValidation } = require("../validation/admin.validation");
+const { userValidation } = require("../validation/user.validation");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const config = require("config");
 
-const addAdmin = async (req, res) => {
+const addUser = async (req, res) => {
   try {
-    const { error, value } = adminValidation(req.body);
+    const { error, value } = userValidation(req.body);
     if (error) {
       return sendErrorresponse(error, res);
     }
 
     const hashedPassword = bcrypt.hashSync(value.password, 7);
-    const newAdmin = await Admin.create({
+    const newUser = await User.create({
       ...value,
       password: hashedPassword,
     });
 
-    res.status(201).send({ message: "New Admin added", newAdmin });
+    res.status(201).send({ message: "New User added", newUser });
   } catch (error) {
     sendErrorresponse(error, res);
   }
 };
 
-const loginAdmin = async (req, res) => {
+const loginUser = async (req, res) => {
   try {
     const { email, password } = req.body;
-    const admin = await Admin.findOne({ email });
+    const user = await User.findOne({ email });
 
-    if (!admin) {
+    if (!user) {
       return res.status(401).send({ message: "Email yoki password xato" });
     }
 
-    const validPassword = bcrypt.compareSync(password, admin.password);
+    const validPassword = bcrypt.compareSync(password, user.password);
     if (!validPassword) {
       return res.status(401).send({ message: "Email yoki password xato" });
     }
 
     const payload = {
-      id: admin._id,
-      email: admin.email,
-      is_active: admin.is_active,
-      is_creator: admin.is_creator,
+      id: user._id,
+      email: user.email,
+      is_active: user.is_active,
     };
     const token = jwt.sign(payload, config.get("tokenKey"), {
       expiresIn: config.get("tokenExpTime"),
@@ -50,7 +49,7 @@ const loginAdmin = async (req, res) => {
 
     res
       .status(201)
-      .send({ message: "Tizimga xush kelibsiz", id: admin.id, token });
+      .send({ message: "Tizimga xush kelibsiz", id: user.id, token });
   } catch (error) {
     sendErrorresponse(error, res);
   }
@@ -58,8 +57,8 @@ const loginAdmin = async (req, res) => {
 
 const findAll = async (req, res) => {
   try {
-    const data = await Admin.find();
-    res.status(200).send({ admins: data });
+    const data = await User.find();
+    res.status(200).send({ users: data });
   } catch (error) {
     sendErrorresponse(error, res);
   }
@@ -68,8 +67,8 @@ const findAll = async (req, res) => {
 const findById = async (req, res) => {
   const { id } = req.params;
   try {
-    const admin = await Admin.findById(id);
-    res.status(200).send({ data: admin });
+    const user = await User.findById(id);
+    res.status(200).send({ data: user });
   } catch (error) {
     sendErrorresponse(error, res);
   }
@@ -77,7 +76,7 @@ const findById = async (req, res) => {
 
 const update = async (req, res) => {
   try {
-    const { error, value } = adminValidation(req.body);
+    const { error, value } = userValidation(req.body);
     if (error) {
       return sendErrorresponse(error, res);
     }
@@ -86,16 +85,16 @@ const update = async (req, res) => {
       value.password = bcrypt.hashSync(value.password, 7);
     }
 
-    const updatedAdmin = await Admin.findByIdAndUpdate(req.params.id, value, {
+    const updatedUser = await User.findByIdAndUpdate(req.params.id, value, {
       new: true,
       runValidators: true,
     });
 
-    if (!updatedAdmin) {
-      return res.status(404).send({ message: "Admin not found" });
+    if (!updatedUser) {
+      return res.status(404).send({ message: "User not found" });
     }
 
-    res.status(200).send({ message: "Admin updated", data: updatedAdmin });
+    res.status(200).send({ message: "User updated", data: updatedUser });
   } catch (error) {
     sendErrorresponse(error, res);
   }
@@ -104,18 +103,18 @@ const update = async (req, res) => {
 const remove = async (req, res) => {
   const { id } = req.params;
   try {
-    await Admin.findByIdAndDelete(id);
-    res.status(200).send({ message: "Admin deleted successfully" });
+    await User.findByIdAndDelete(id);
+    res.status(200).send({ message: "User deleted successfully" });
   } catch (error) {
     sendErrorresponse(error, res);
   }
 };
 
 module.exports = {
-  addAdmin,
+  addUser,
   findAll,
   findById,
   update,
   remove,
-  loginAdmin,
+  loginUser,
 };
