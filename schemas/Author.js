@@ -13,6 +13,7 @@ const authorSchema = new Schema(
     photo: { type: String },
     is_expert: { type: Boolean },
     is_active: { type: Boolean },
+    refresh_token: { type: String },
   },
   {
     timestamps: false,

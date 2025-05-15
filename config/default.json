@@ -2,5 +2,11 @@
   "PORT": 3333,
   "dbUri": "mongodb+srv://admin:12345@cluster0.hydrr4s.mongodb.net/itterm?retryWrites=true&w=majority&appName=Cluster0",
   "tokenKey": "MySecretTokenKey",
-  "tokenExpTime": "24h"
+  "tokenExpTime": "24h",
+
+  "access_key": "AccessTokenKeyssokdsiefdsjkffn",
+  "refresh_key": "RefreshTokenKeyssokdsiefdsjkffn",
+  "access_time": "15h",
+  "refresh_time": "15h",
+  "cookie_refresh_time": 1296000000
 }

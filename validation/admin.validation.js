@@ -1,14 +1,16 @@
 const Joi = require("joi");
 
-exports.adminValidation = (data) => {
+const adminValidation = (data) => {
   const schema = Joi.object({
-    name: Joi.string().min(3).max(50).required(),
-    email: Joi.string().email().required(),
-    phone: Joi.string().min(5).max(20),
-    password: Joi.string().min(6).max(30).required(),
-    is_active: Joi.boolean(),
-    is_creator: Joi.boolean(),
+    name: Joi.string().trim().required(),
+    email: Joi.string().trim().email().required(),
+    phone: Joi.string().trim().optional(),
+    password: Joi.string().min(6).required(),
+    is_active: Joi.boolean().optional(),
+    is_creator: Joi.boolean().optional(),
   });
 
   return schema.validate(data);
 };
+
+module.exports = { adminValidation };

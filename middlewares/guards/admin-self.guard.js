@@ -1,15 +1,14 @@
-module.exports = function (req, res, next) {
-  try {
-    if (req.params.id !== req.admin.id && !req.admin.is_creator) {
-      return res
-        .status(403)
-        .json({
-          message: "Access denied. You can only manage your own profile",
-        });
-    }
+const { sendErrorresponse } = require("../../helpers/send_error_response");
 
+module.exports = (req, res, next) => {
+  try {
+    if (req.params.id !== req.admin.id) {
+      return res.status(403).send({
+        message: "Faqat o'zingizning ma'lumotlaringizni ko'rish mumkin",
+      });
+    }
     next();
   } catch (error) {
-    return res.status(403).json({ message: "Admin access denied" });
+    sendErrorresponse(error, res);
   }
 };

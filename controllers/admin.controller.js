@@ -2,15 +2,12 @@ const Admin = require("../schemas/Admin");
 const { sendErrorresponse } = require("../helpers/send_error_response");
 const { adminValidation } = require("../validation/admin.validation");
 const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
-const config = require("config");
+const jwtService = require("../services/jwt.service");
 
 const addAdmin = async (req, res) => {
   try {
     const { error, value } = adminValidation(req.body);
-    if (error) {
-      return sendErrorresponse(error, res);
-    }
+    if (error) return sendErrorresponse(error, res);
 
     const hashedPassword = bcrypt.hashSync(value.password, 7);
     const newAdmin = await Admin.create({
@@ -18,7 +15,7 @@ const addAdmin = async (req, res) => {
       password: hashedPassword,
     });
 
-    res.status(201).send({ message: "New Admin added", newAdmin });
+    res.status(201).send({ message: "New admin added", newAdmin });
   } catch (error) {
     sendErrorresponse(error, res);
   }
@@ -28,15 +25,12 @@ const loginAdmin = async (req, res) => {
   try {
     const { email, password } = req.body;
     const admin = await Admin.findOne({ email });
-
-    if (!admin) {
-      return res.status(401).send({ message: "Email yoki password xato" });
-    }
+    if (!admin)
+      return res.status(401).send({ message: "Login yoki parol notogri" });
 
     const validPassword = bcrypt.compareSync(password, admin.password);
-    if (!validPassword) {
-      return res.status(401).send({ message: "Email yoki password xato" });
-    }
+    if (!validPassword)
+      return res.status(401).send({ message: "Login yoki parol noto'gri" });
 
     const payload = {
       id: admin._id,
@@ -44,13 +38,43 @@ const loginAdmin = async (req, res) => {
       is_active: admin.is_active,
       is_creator: admin.is_creator,
     };
-    const token = jwt.sign(payload, config.get("tokenKey"), {
-      expiresIn: config.get("tokenExpTime"),
+
+    const tokens = jwtService.generateTokens(payload);
+    admin.refresh_token = tokens.refreshToken;
+    await admin.save();
+
+    res.cookie("refreshToken", tokens.refreshToken, {
+      httpOnly: true,
+      maxAge: 30 * 24 * 60 * 60 * 1000,
     });
 
     res
-      .status(201)
-      .send({ message: "Tizimga xush kelibsiz", id: admin.id, token });
+      .status(200)
+      .send({
+        message: "Tizimga xush kelibsiz",
+        accessToken: tokens.accessToken,
+        id: admin.id,
+      });
+  } catch (error) {
+    sendErrorresponse(error, res);
+  }
+};
+
+const logoutAdmin = async (req, res) => {
+  try {
+    const { refreshToken } = req.cookies;
+    if (!refreshToken) return res.status(400).send({ message: "Token yo'q" });
+
+    const admin = await Admin.findOneAndUpdate(
+      { refresh_token: refreshToken },
+      { refresh_token: "" },
+      { new: true }
+    );
+
+    if (!admin) return res.status(400).send({ message: "Token notog'ri" });
+
+    res.clearCookie("refreshToken");
+    res.send({ message: "Admin logout qilindi" });
   } catch (error) {
     sendErrorresponse(error, res);
   }
@@ -58,17 +82,16 @@ const loginAdmin = async (req, res) => {
 
 const findAll = async (req, res) => {
   try {
-    const data = await Admin.find();
-    res.status(200).send({ admins: data });
+    const admins = await Admin.find();
+    res.status(200).send({ admins });
   } catch (error) {
     sendErrorresponse(error, res);
   }
 };
 
 const findById = async (req, res) => {
-  const { id } = req.params;
   try {
-    const admin = await Admin.findById(id);
+    const admin = await Admin.findById(req.params.id);
     res.status(200).send({ data: admin });
   } catch (error) {
     sendErrorresponse(error, res);
@@ -78,34 +101,26 @@ const findById = async (req, res) => {
 const update = async (req, res) => {
   try {
     const { error, value } = adminValidation(req.body);
-    if (error) {
-      return sendErrorresponse(error, res);
-    }
-
-    if (value.password) {
-      value.password = bcrypt.hashSync(value.password, 7);
-    }
+    if (error) return sendErrorresponse(error, res);
 
     const updatedAdmin = await Admin.findByIdAndUpdate(req.params.id, value, {
       new: true,
       runValidators: true,
     });
 
-    if (!updatedAdmin) {
-      return res.status(404).send({ message: "Admin not found" });
-    }
+    if (!updatedAdmin)
+      return res.status(404).send({ message: "Admin topilmadi" });
 
-    res.status(200).send({ message: "Admin updated", data: updatedAdmin });
+    res.status(200).send({ message: "Admin yangilandi", data: updatedAdmin });
   } catch (error) {
     sendErrorresponse(error, res);
   }
 };
 
 const remove = async (req, res) => {
-  const { id } = req.params;
   try {
-    await Admin.findByIdAndDelete(id);
-    res.status(200).send({ message: "Admin deleted successfully" });
+    await Admin.findByIdAndDelete(req.params.id);
+    res.status(200).send({ message: "Admin o'chirildi" });
   } catch (error) {
     sendErrorresponse(error, res);
   }
@@ -113,9 +128,10 @@ const remove = async (req, res) => {
 
 module.exports = {
   addAdmin,
+  loginAdmin,
+  logoutAdmin,
   findAll,
   findById,
   update,
   remove,
-  loginAdmin,
 };

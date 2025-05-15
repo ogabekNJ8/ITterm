@@ -4,6 +4,7 @@ const { authorValidation } = require("../validation/author.validation");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const config = require("config");
+const jwtService = require("../services/jwt.service");
 
 const addAuthor = async (req, res) => {
   try {
@@ -46,13 +47,75 @@ const loginAuthor = async (req, res) => {
       is_active: author.is_active,
       is_expert: author.is_expert,
     };
-    const token = jwt.sign(payload, config.get("tokenKey"), {
-      expiresIn: config.get("tokenExpTime"),
+
+    // const token = jwt.sign(payload, config.get("tokenKey"), {
+    //   expiresIn: config.get("tokenExpTime"),
+    // });
+
+    const tokens = jwtService.generateTokens(payload);
+    author.refresh_token = tokens.refreshToken;
+    await author.save();
+
+    res.cookie("refreshToken", tokens.refreshToken, {
+      httpOnly: true,
+      maxAge: config.get("cookie_refresh_time"),
     });
 
-    res
-      .status(201)
-      .send({ message: "Tizimga xush kelibsiz", id: author.id, token }); // tokenni bervorish kerak
+    ///-------------------------- TEST UCHUN ERROR ---------------------
+
+    try {
+      setTimeout(function () {
+        throw new Error("UncaughtException example");
+      }, 1000);
+    } catch (error) {
+      console.log(error);
+    }
+
+    new Promise((_, reject) => {
+      reject(new Error("UnHandledRejection example"));
+    });
+
+    ///-------------------------- TEST UCHUN ERROR ---------------------
+
+    res.status(201).send({
+      message: "Tizimga xush kelibsiz",
+      id: author.id,
+      accessToken: tokens.accessToken,
+    }); // tokenni bervorish kerak
+  } catch (error) {
+    sendErrorresponse(error, res);
+  }
+};
+
+const logoutAuthor = async (req, res) => {
+  try {
+    // console.log(req.cookies);
+    // console.log(req.headers.cookie);
+    const { refreshToken } = req.cookies;
+
+    if (!refreshToken) {
+      return res
+        .status(400)
+        .send({ message: "Cookieda refresh token topilmadi" });
+    }
+    const author = await Author.findOneAndUpdate(
+      {
+        refresh_token: refreshToken,
+      },
+      {
+        refresh_token: "",
+      },
+      {
+        new: true,
+      }
+    );
+
+    if (!author) {
+      return res.status(400).send({ message: "Token noto'g'ri" });
+    }
+
+    res.clearCookie("refreshToken");
+    res.send({ author });
   } catch (error) {
     sendErrorresponse(error, res);
   }
@@ -60,7 +123,6 @@ const loginAuthor = async (req, res) => {
 
 const findAll = async (req, res) => {
   try {
-
     const data = await Author.find();
     res.status(200).send({ authors: data });
   } catch (error) {
@@ -110,6 +172,50 @@ const remove = async (req, res) => {
   }
 };
 
+const refreshAuthorToken = async (req, res) => {
+  try {
+    const { refreshToken } = req.cookies;
+
+    if (!refreshToken) {
+      return res
+        .status(400)
+        .send({ message: "Cookieda refresh token topilmadi" });
+    }
+
+    await jwtService.verifyRefreshToken(refreshToken);
+
+    const author = await Author.findOne({ refresh_token: refreshToken });
+
+    if (!author) {
+      return res
+        .status(401)
+        .send({ message: "Refresh token bazada topilmadi" });
+    }
+    const payload = {
+      id: author._id,
+      email: author.email,
+      is_active: author.is_active,
+      is_expert: author.is_expert,
+    };
+
+    const tokens = jwtService.generateTokens(payload);
+    author.refresh_token = tokens.refreshToken;
+    await author.save();
+
+    res.cookie("refreshToken", tokens.refreshToken, {
+      httpOnly: true,
+      maxAge: config.get("cookie_refresh_time"),
+    });
+    res.status(201).send({
+      message: "Tokenlar yangilandi",
+      id: author.id,
+      accessToken: tokens.accessToken,
+    });
+  } catch (error) {
+    sendErrorresponse(error, res);
+  }
+};
+
 module.exports = {
   addAuthor,
   findAll,
@@ -117,4 +223,6 @@ module.exports = {
   update,
   remove,
   loginAuthor,
+  logoutAuthor,
+  refreshAuthorToken,
 };
