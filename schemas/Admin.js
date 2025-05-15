@@ -29,6 +29,7 @@ const adminSchema = new Schema(
       type: Boolean,
       default: false,
     },
+    refresh_token: { type: String },
   },
   {
     timestamps: {

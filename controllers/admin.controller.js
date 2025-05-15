@@ -2,7 +2,8 @@ const Admin = require("../schemas/Admin");
 const { sendErrorresponse } = require("../helpers/send_error_response");
 const { adminValidation } = require("../validation/admin.validation");
 const bcrypt = require("bcrypt");
-const jwtService = require("../services/jwt.service");
+const config = require("config");
+const { adminJwtService } = require("../services/jwt.service");
 
 const addAdmin = async (req, res) => {
   try {
@@ -39,22 +40,20 @@ const loginAdmin = async (req, res) => {
       is_creator: admin.is_creator,
     };
 
-    const tokens = jwtService.generateTokens(payload);
+    const tokens = adminJwtService.generateTokens(payload);
     admin.refresh_token = tokens.refreshToken;
     await admin.save();
 
     res.cookie("refreshToken", tokens.refreshToken, {
       httpOnly: true,
-      maxAge: 30 * 24 * 60 * 60 * 1000,
+      maxAge: config.get("adminCookie_refresh_time")
     });
 
-    res
-      .status(200)
-      .send({
-        message: "Tizimga xush kelibsiz",
-        accessToken: tokens.accessToken,
-        id: admin.id,
-      });
+    res.status(200).send({
+      message: "Tizimga xush kelibsiz",
+      accessToken: tokens.accessToken,
+      id: admin.id,
+    });
   } catch (error) {
     sendErrorresponse(error, res);
   }

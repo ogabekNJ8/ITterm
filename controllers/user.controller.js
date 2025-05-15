@@ -2,7 +2,8 @@ const User = require("../schemas/User");
 const { sendErrorresponse } = require("../helpers/send_error_response");
 const { userValidation } = require("../validation/user.validation");
 const bcrypt = require("bcrypt");
-const jwtService = require("../services/jwt.service");
+const { userJwtService } = require("../services/jwt.service");
+const config = require("config");
 
 const addUser = async (req, res) => {
   try {
@@ -24,13 +25,16 @@ const addUser = async (req, res) => {
 const loginUser = async (req, res) => {
   try {
     const { email, password } = req.body;
+    if (!email || !password) {
+      return res.status(400).send({ message: "Email va parol kerak" });
+    }
     const user = await User.findOne({ email });
     if (!user)
-      return res.status(401).send({ message: "Login yoki parol notogri" });
+      return res.status(401).send({ message: "Login yoki parol noto'g'ri" });
 
     const validPassword = bcrypt.compareSync(password, user.password);
     if (!validPassword)
-      return res.status(401).send({ message: "Login yoki parol noto'gri" });
+      return res.status(401).send({ message: "Login yoki parol noto'g'ri" });
 
     const payload = {
       id: user._id,
@@ -38,22 +42,20 @@ const loginUser = async (req, res) => {
       is_active: user.is_active,
     };
 
-    const tokens = jwtService.generateTokens(payload);
+    const tokens = userJwtService.generateTokens(payload);
     user.refresh_token = tokens.refreshToken;
     await user.save();
 
     res.cookie("refreshToken", tokens.refreshToken, {
       httpOnly: true,
-      maxAge: 30 * 24 * 60 * 60 * 1000, // config.get("cookie_refresh_time") ni yozsangiz yaxshi
+      maxAge: config.get("cookie_refresh_time"),
     });
 
-    res
-      .status(200)
-      .send({
-        message: "Tizimga xush kelibsiz",
-        accessToken: tokens.accessToken,
-        id: user.id,
-      });
+    res.status(200).send({
+      message: "Tizimga xush kelibsiz",
+      accessToken: tokens.accessToken,
+      id: user.id,
+    });
   } catch (error) {
     sendErrorresponse(error, res);
   }
@@ -88,14 +90,17 @@ const findAll = async (req, res) => {
   }
 };
 
+
 const findById = async (req, res) => {
   try {
     const user = await User.findById(req.params.id);
-    res.status(200).send({ data: user });
+    if (!user) return res.status(404).send({ message: "User topilmadi" });
+    res.status(200).send({ user });
   } catch (error) {
     sendErrorresponse(error, res);
   }
 };
+
 
 const update = async (req, res) => {
   try {
@@ -110,7 +115,7 @@ const update = async (req, res) => {
     if (!updatedUser)
       return res.status(404).send({ message: "User topilmadi" });
 
-    res.status(200).send({ message: "User yangilandi", data: updatedUser });
+    res.status(200).send({ message: "User yangilandi", updatedUser });
   } catch (error) {
     sendErrorresponse(error, res);
   }

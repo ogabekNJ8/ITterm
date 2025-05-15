@@ -4,7 +4,9 @@ const { authorValidation } = require("../validation/author.validation");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const config = require("config");
-const jwtService = require("../services/jwt.service");
+const authorJwtService = require("../services/jwt.service");
+const uuid = require("uuid");
+const mailService = require("../services/mail.service");
 
 const addAuthor = async (req, res) => {
   try {
@@ -13,10 +15,16 @@ const addAuthor = async (req, res) => {
       return sendErrorresponse(error, res);
     }
     const hashedPassword = bcrypt.hashSync(value.password, 7);
+    const activation_link = uuid.v4();
     const newAuthor = await Author.create({
       ...value,
       password: hashedPassword,
+      activation_link,
     });
+    const link = `${config.get(
+      "api_url"
+    )}/api/author/activate/${activation_link}`;
+    await mailService.sendMail(value.email, link);
 
     res.status(201).send({ message: "New Author added", newAuthor });
   } catch (error) {
@@ -63,17 +71,17 @@ const loginAuthor = async (req, res) => {
 
     ///-------------------------- TEST UCHUN ERROR ---------------------
 
-    try {
-      setTimeout(function () {
-        throw new Error("UncaughtException example");
-      }, 1000);
-    } catch (error) {
-      console.log(error);
-    }
+    // try {
+    //   setTimeout(function () {
+    //     throw new Error("UncaughtException example");
+    //   }, 1000);
+    // } catch (error) {
+    //   console.log(error);
+    // }
 
-    new Promise((_, reject) => {
-      reject(new Error("UnHandledRejection example"));
-    });
+    // new Promise((_, reject) => {
+    //   reject(new Error("UnHandledRejection example"));
+    // });
 
     ///-------------------------- TEST UCHUN ERROR ---------------------
 
@@ -216,6 +224,24 @@ const refreshAuthorToken = async (req, res) => {
   }
 };
 
+const authorActivate = async (req, res) => {
+  try {
+    const { link } = req.params;
+    const author = await Author.findOne({ activation_link: link });
+
+    if (!author) {
+      return res.status(400).send({ message: "Avtor link noto'g'ri" });
+    }
+    if (author.is_active) {
+      return res.status(400).send({ message: "Avtor avval faollashtirilgan" });
+    }
+    author.is_active = true;
+    await author.save();
+    res.send({ message: "Avtor faollashtirildi", isActive: author.is_active });
+  } catch (error) {
+    sendErrorresponse(error, res);
+  }
+};
 module.exports = {
   addAuthor,
   findAll,
@@ -225,4 +251,5 @@ module.exports = {
   loginAuthor,
   logoutAuthor,
   refreshAuthorToken,
+  authorActivate
 };

@@ -10,7 +10,7 @@ const tagRouter = require("./tag.routes");
 const topicRouter = require("./topic.routes");
 const desc_topicRouter = require("./desc_topic.routes");
 const userRouter = require("./user.routes");
-const adminRouter = require("./user.routes");
+const adminRouter = require("./admin.routes");
 
 
 router.use("/dict", dictRouter);

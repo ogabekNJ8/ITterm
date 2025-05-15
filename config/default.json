@@ -1,12 +1,28 @@
 {
   "PORT": 3333,
   "dbUri": "mongodb+srv://admin:12345@cluster0.hydrr4s.mongodb.net/itterm?retryWrites=true&w=majority&appName=Cluster0",
-  "tokenKey": "MySecretTokenKey",
-  "tokenExpTime": "24h",
 
   "access_key": "AccessTokenKeyssokdsiefdsjkffn",
   "refresh_key": "RefreshTokenKeyssokdsiefdsjkffn",
-  "access_time": "15h",
+  "access_time": "5h",
   "refresh_time": "15h",
-  "cookie_refresh_time": 1296000000
+  "cookie_refresh_time": 1296000000,
+
+  "adminAccess_key": "AccessTokenKeyssokdsiefdsjkffn",
+  "adminRefresh_key": "RefreshTokenKeyssokdsiefdsjkffn",
+  "adminAccess_time": "10h",
+  "adminRefresh_time": "14h",
+  "adminCookie_refresh_time": 1296000000,
+
+  "userAccess_key": "AccessTokenKeyssokdsiefdsjkffn",
+  "userRefresh_key": "RefreshTokenKeyssokdsiefdsjkffn",
+  "userAccess_time": "19h",
+  "userRefresh_time": "12h",
+  "userCookie_refresh_time": 1296000000,
+
+  "smtp_password":"hvefgeyezoobroep", 
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 587,
+  "smtp_user": "ogabekmullaboyev01@gmail.com",
+  "api_url": "http://localhost:3333"
 }
