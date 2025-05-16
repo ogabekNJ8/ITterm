@@ -125,6 +125,51 @@ const remove = async (req, res) => {
   }
 };
 
+const refreshAdminToken = async (req, res) => {
+  try {
+    const { refreshToken } = req.cookies;
+
+    if (!refreshToken) {
+      return res
+        .status(400)
+        .send({ message: "Cookieda refresh token topilmadi" });
+    }
+
+    await adminJwtService.verifyRefreshToken(refreshToken);
+
+    const admin = await Admin.findOne({ refresh_token: refreshToken });
+
+    if (!admin) {
+      return res
+        .status(401)
+        .send({ message: "Refresh token bazada topilmadi" });
+    }
+
+    const payload = {
+      id: admin._id,
+      email: admin.email,
+      is_active: admin.is_active,
+    };
+
+    const tokens = adminJwtService.generateTokens(payload);
+    admin.refresh_token = tokens.refreshToken;
+    await admin.save();
+
+    res.cookie("refreshToken", tokens.refreshToken, {
+      httpOnly: true,
+      maxAge: config.get("cookie_refresh_time"),
+    });
+
+    res.status(201).send({
+      message: "Tokenlar yangilandi",
+      id: admin.id,
+      accessToken: tokens.accessToken,
+    });
+  } catch (error) {
+    sendErrorresponse(error, res);
+  }
+};
+
 module.exports = {
   addAdmin,
   loginAdmin,
@@ -133,4 +178,5 @@ module.exports = {
   findById,
   update,
   remove,
+  refreshAdminToken
 };

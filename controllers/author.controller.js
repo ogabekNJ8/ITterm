@@ -2,9 +2,8 @@ const Author = require("../schemas/Author");
 const { sendErrorresponse } = require("../helpers/send_error_response");
 const { authorValidation } = require("../validation/author.validation");
 const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
 const config = require("config");
-const authorJwtService = require("../services/jwt.service");
+const { authorJwtService } = require("../services/jwt.service");
 const uuid = require("uuid");
 const mailService = require("../services/mail.service");
 
@@ -60,7 +59,7 @@ const loginAuthor = async (req, res) => {
     //   expiresIn: config.get("tokenExpTime"),
     // });
 
-    const tokens = jwtService.generateTokens(payload);
+    const tokens = authorJwtService.generateTokens(payload);
     author.refresh_token = tokens.refreshToken;
     await author.save();
 
@@ -190,7 +189,7 @@ const refreshAuthorToken = async (req, res) => {
         .send({ message: "Cookieda refresh token topilmadi" });
     }
 
-    await jwtService.verifyRefreshToken(refreshToken);
+    await authorJwtService.verifyRefreshToken(refreshToken);
 
     const author = await Author.findOne({ refresh_token: refreshToken });
 
@@ -206,7 +205,7 @@ const refreshAuthorToken = async (req, res) => {
       is_expert: author.is_expert,
     };
 
-    const tokens = jwtService.generateTokens(payload);
+    const tokens = authorJwtService.generateTokens(payload);
     author.refresh_token = tokens.refreshToken;
     await author.save();
 
@@ -251,5 +250,5 @@ module.exports = {
   loginAuthor,
   logoutAuthor,
   refreshAuthorToken,
-  authorActivate
+  authorActivate,
 };

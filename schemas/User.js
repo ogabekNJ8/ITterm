@@ -26,15 +26,14 @@ const userSchema = new Schema(
     },
     is_active: {
       type: Boolean,
-      default: true,
+      default: false,
     },
     refresh_token: { type: String },
+    activation_link: { type: String },
   },
   {
-    timestamps: {
-      createdAt: "created_date",
-      updatedAt: "updated_date",
-    },
+    timestamps: false,
+    versionKey: false,
   }
 );
 

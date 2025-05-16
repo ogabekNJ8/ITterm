@@ -4,6 +4,8 @@ const { userValidation } = require("../validation/user.validation");
 const bcrypt = require("bcrypt");
 const { userJwtService } = require("../services/jwt.service");
 const config = require("config");
+const uuid = require("uuid");
+const mailService = require("../services/mail.service");
 
 const addUser = async (req, res) => {
   try {
@@ -11,10 +13,18 @@ const addUser = async (req, res) => {
     if (error) return sendErrorresponse(error, res);
 
     const hashedPassword = bcrypt.hashSync(value.password, 7);
+    const activation_link = uuid.v4();
+
     const newUser = await User.create({
       ...value,
       password: hashedPassword,
+      activation_link,
     });
+
+    const link = `${config.get(
+      "api_url"
+    )}/api/user/activate/${activation_link}`;
+    await mailService.sendMail(value.email, link);
 
     res.status(201).send({ message: "New user added", newUser });
   } catch (error) {
@@ -90,7 +100,6 @@ const findAll = async (req, res) => {
   }
 };
 
-
 const findById = async (req, res) => {
   try {
     const user = await User.findById(req.params.id);
@@ -100,7 +109,6 @@ const findById = async (req, res) => {
     sendErrorresponse(error, res);
   }
 };
-
 
 const update = async (req, res) => {
   try {
@@ -130,6 +138,78 @@ const remove = async (req, res) => {
   }
 };
 
+const refreshUserToken = async (req, res) => {
+  try {
+    const { refreshToken } = req.cookies;
+
+    if (!refreshToken) {
+      return res
+        .status(400)
+        .send({ message: "Cookieda refresh token topilmadi" });
+    }
+
+    await userJwtService.verifyRefreshToken(refreshToken);
+
+    const user = await User.findOne({ refresh_token: refreshToken });
+
+    if (!user) {
+      return res
+        .status(401)
+        .send({ message: "Refresh token bazada topilmadi" });
+    }
+
+    const payload = {
+      id: user._id,
+      email: user.email,
+      is_active: user.is_active,
+    };
+
+    const tokens = userJwtService.generateTokens(payload);
+    user.refresh_token = tokens.refreshToken;
+    await user.save();
+
+    res.cookie("refreshToken", tokens.refreshToken, {
+      httpOnly: true,
+      maxAge: config.get("cookie_refresh_time"),
+    });
+
+    res.status(201).send({
+      message: "Tokenlar yangilandi",
+      id: user.id,
+      accessToken: tokens.accessToken,
+    });
+  } catch (error) {
+    sendErrorresponse(error, res);
+  }
+};
+
+const userActivate = async (req, res) => {
+  try {
+    const { link } = req.params;
+    const user = await User.findOne({ activation_link: link });
+
+    if (!user) {
+      return res.status(400).send({ message: "Foydalanuvchi link noto'g'ri" });
+    }
+
+    if (user.is_active) {
+      return res
+        .status(400)
+        .send({ message: "Foydalanuvchi allaqachon faollashtirilgan" });
+    }
+
+    user.is_active = true;
+    await user.save();
+
+    res.send({
+      message: "Foydalanuvchi faollashtirildi",
+      isActive: user.is_active,
+    });
+  } catch (error) {
+    sendErrorresponse(error, res);
+  }
+};
+
 module.exports = {
   addUser,
   loginUser,
@@ -138,4 +218,6 @@ module.exports = {
   findById,
   update,
   remove,
+  refreshUserToken,
+  userActivate,
 };
