@@ -68,7 +68,7 @@ const loginAuthor = async (req, res) => {
       maxAge: config.get("cookie_refresh_time"),
     });
 
-    ///-------------------------- TEST UCHUN ERROR ---------------------
+    // //-------------------------- TEST UCHUN ERROR ---------------------
 
     // try {
     //   setTimeout(function () {
@@ -82,7 +82,7 @@ const loginAuthor = async (req, res) => {
     //   reject(new Error("UnHandledRejection example"));
     // });
 
-    ///-------------------------- TEST UCHUN ERROR ---------------------
+    // //-------------------------- TEST UCHUN ERROR ---------------------
 
     res.status(201).send({
       message: "Tizimga xush kelibsiz",

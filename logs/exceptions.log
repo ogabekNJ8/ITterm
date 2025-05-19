@@ -1,0 +1,1670 @@
+2025-05-16T10:59:15.042Z [ITTERM!] error: uncaughtException: UnHandledRejection example
+Error: UnHandledRejection example
+    at C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\controllers\author.controller.js:82:14
+    at new Promise (<anonymous>)
+    at loginAuthor (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\controllers\author.controller.js:81:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-05-16T11:14:29.985Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:15:04.832Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:15:32.395Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:15:49.078Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:16:14.148Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:16:15.361Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:16:17.492Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:16:18.603Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:16:22.937Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:19:23.142Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:19:23.143Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:21:00.248Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:21:00.639Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:21:00.847Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:25:45.250Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:25:45.251Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:25:56.497Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:26:04.043Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:26:04.044Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:26:33.729Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:26:33.729Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:27:33.933Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:27:33.934Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:27:58.481Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:27:58.481Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:28:06.567Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:28:06.568Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:29:07.198Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:29:07.199Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:29:19.367Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:29:19.367Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:29:24.482Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:29:24.482Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:29:29.464Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:31:00.498Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:31:00.503Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:31:11.376Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:31:11.376Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:31:14.207Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:31:14.207Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:31:37.537Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:33:05.687Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:15:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:38:15.571Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:38:15.571Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:38:17.565Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:38:17.565Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:38:21.996Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:41:04.747Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:41:04.747Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:42:05.623Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:42:05.850Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:42:13.248Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:42:13.248Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:43:54.835Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:43:54.835Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:44:15.778Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:44:15.779Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:44:50.896Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:44:50.896Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:44:53.183Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:44:53.184Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:44:58.106Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:44:58.106Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:45:01.528Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:45:01.528Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:45:04.347Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:45:04.347Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:45:08.686Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:45:08.686Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:45:59.777Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:45:59.778Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:46:02.589Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:46:02.589Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:51:54.859Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T11:51:54.859Z [ITTERM!] error: uncaughtException: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+Error: Cannot find module 'expressWinston'
+Require stack:
+- C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:17:24)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+2025-05-16T12:18:58.101Z [ITTERM!] error: uncaughtException: Unexpected token 'new'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+    new
+    ^^^
+
+SyntaxError: Unexpected token 'new'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:18:58.102Z [ITTERM!] error: uncaughtException: Unexpected token 'new'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+    new
+    ^^^
+
+SyntaxError: Unexpected token 'new'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:01.621Z [ITTERM!] error: uncaughtException: Unexpected token 'new'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+    new winston
+    ^^^
+
+SyntaxError: Unexpected token 'new'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:01.624Z [ITTERM!] error: uncaughtException: Unexpected token 'new'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+    new winston
+    ^^^
+
+SyntaxError: Unexpected token 'new'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:04.174Z [ITTERM!] error: uncaughtException: Unexpected token 'new'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+    new winston.transports
+    ^^^
+
+SyntaxError: Unexpected token 'new'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:04.174Z [ITTERM!] error: uncaughtException: Unexpected token 'new'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+    new winston.transports
+    ^^^
+
+SyntaxError: Unexpected token 'new'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:06.009Z [ITTERM!] error: uncaughtException: Unexpected token 'new'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+    new winston.transports.
+    ^^^
+
+SyntaxError: Unexpected token 'new'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:06.009Z [ITTERM!] error: uncaughtException: Unexpected token 'new'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+    new winston.transports.
+    ^^^
+
+SyntaxError: Unexpected token 'new'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:08.546Z [ITTERM!] error: uncaughtException: Unexpected token 'new'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+    new winston.transports.m
+    ^^^
+
+SyntaxError: Unexpected token 'new'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:08.556Z [ITTERM!] error: uncaughtException: Unexpected token 'new'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+    new winston.transports.m
+    ^^^
+
+SyntaxError: Unexpected token 'new'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:10.997Z [ITTERM!] error: uncaughtException: Unexpected token 'new'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+    new winston.transports.MongoDB
+    ^^^
+
+SyntaxError: Unexpected token 'new'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:11.009Z [ITTERM!] error: uncaughtException: Unexpected token 'new'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+    new winston.transports.MongoDB
+    ^^^
+
+SyntaxError: Unexpected token 'new'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:12.643Z [ITTERM!] error: uncaughtException: Unexpected token 'new'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+    new winston.transports.MongoDB()
+    ^^^
+
+SyntaxError: Unexpected token 'new'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:12.646Z [ITTERM!] error: uncaughtException: Unexpected token 'new'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+    new winston.transports.MongoDB()
+    ^^^
+
+SyntaxError: Unexpected token 'new'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:14.430Z [ITTERM!] error: uncaughtException: Unexpected token 'new'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+    new winston.transports.MongoDB({
+    ^^^
+
+SyntaxError: Unexpected token 'new'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:14.431Z [ITTERM!] error: uncaughtException: Unexpected token 'new'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+    new winston.transports.MongoDB({
+    ^^^
+
+SyntaxError: Unexpected token 'new'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:18.031Z [ITTERM!] error: uncaughtException: You should provide db to log to.
+Error: You should provide db to log to.
+    at new exports.MongoDB (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\node_modules\winston-mongodb\lib\winston-mongodb.js:61:11)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+2025-05-16T12:19:18.030Z [ITTERM!] error: uncaughtException: You should provide db to log to.
+Error: You should provide db to log to.
+    at new exports.MongoDB (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\node_modules\winston-mongodb\lib\winston-mongodb.js:61:11)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+2025-05-16T12:19:28.027Z [ITTERM!] error: uncaughtException: You should provide db to log to.
+Error: You should provide db to log to.
+    at new exports.MongoDB (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\node_modules\winston-mongodb\lib\winston-mongodb.js:61:11)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+2025-05-16T12:19:28.030Z [ITTERM!] error: uncaughtException: You should provide db to log to.
+Error: You should provide db to log to.
+    at new exports.MongoDB (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\node_modules\winston-mongodb\lib\winston-mongodb.js:61:11)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+2025-05-16T12:19:33.633Z [ITTERM!] error: uncaughtException: d is not defined
+ReferenceError: d is not defined
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9:7)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:33.633Z [ITTERM!] error: uncaughtException: d is not defined
+ReferenceError: d is not defined
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9:7)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:36.077Z [ITTERM!] error: uncaughtException: Unexpected token '}'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:10
+    })
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:36.077Z [ITTERM!] error: uncaughtException: Unexpected token '}'
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:10
+    })
+    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:40.252Z [ITTERM!] error: uncaughtException: db.createCollection is not a function
+TypeError: db.createCollection is not a function
+    at createCollection (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\node_modules\winston-mongodb\lib\winston-mongodb.js:111:15)
+    at setupDatabaseAndEmptyQueue (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\node_modules\winston-mongodb\lib\winston-mongodb.js:91:12)
+    at new exports.MongoDB (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\node_modules\winston-mongodb\lib\winston-mongodb.js:163:5)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+2025-05-16T12:19:40.264Z [ITTERM!] error: uncaughtException: db.createCollection is not a function
+TypeError: db.createCollection is not a function
+    at createCollection (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\node_modules\winston-mongodb\lib\winston-mongodb.js:111:15)
+    at setupDatabaseAndEmptyQueue (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\node_modules\winston-mongodb\lib\winston-mongodb.js:91:12)
+    at new exports.MongoDB (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\node_modules\winston-mongodb\lib\winston-mongodb.js:163:5)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+2025-05-16T12:19:44.742Z [ITTERM!] error: uncaughtException: db is not defined
+ReferenceError: db is not defined
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9:22)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:44.741Z [ITTERM!] error: uncaughtException: db is not defined
+ReferenceError: db is not defined
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9:22)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:46.833Z [ITTERM!] error: uncaughtException: dbUri is not defined
+ReferenceError: dbUri is not defined
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9:22)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:46.833Z [ITTERM!] error: uncaughtException: dbUri is not defined
+ReferenceError: dbUri is not defined
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9:22)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:49.540Z [ITTERM!] error: uncaughtException: missing ) after argument list
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+      db: config.get(dbUri")
+                     ^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)
+2025-05-16T12:19:49.541Z [ITTERM!] error: uncaughtException: missing ) after argument list
+C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\middlewares\loggers\request.logger.js:9
+      db: config.get(dbUri")
+                     ^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\OneDrive\Desktop\najot\3-oy\03-kun\ITterm\app.js:16:23)

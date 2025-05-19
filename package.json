@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch app"
+    "dev": "cross-env NODE_ENV=development node --watch app.js",
+    "prod": "cross-env NODE_ENV=production node app"
   },
   "keywords": [],
   "author": "",
@@ -13,11 +14,16 @@
     "bcrypt": "^5.1.1",
     "config": "^3.3.12",
     "cookie-parser": "^1.4.7",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "express-winston": "^4.2.0",
     "joi": "^17.13.3",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.14.1",
     "nodemailer": "^7.0.3",
-    "uuid": "^11.1.0"
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0",
+    "winston-mongodb": "^6.0.0"
   }
 }
